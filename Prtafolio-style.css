@@ -433,12 +433,33 @@ body {
     }
 
     .skills__line{
+        display: flex;
+        flex-wrap: wrap;
         justify-content: center;
+        width: 100%;
+        padding: 10px 10px 10px 10px;
     }
 
     .skills__box{
-        flex-wrap: nowrap;
-        width: 25%;
+        
+        justify-content: space-between;
+        width: 20%;
+        height: 7rem;
+        margin: 1rem;
+    }
+
+    .hobbies__line{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .hobbies__box{
+        
+        justify-content: space-between;
+        width: 20%;
         height: 7rem;
         margin: 1rem;
     }
@@ -513,6 +534,38 @@ body {
 
     .about__title{
         padding-left: 0px;
+    }
+
+    .skills__line{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .skills__box{
+        
+        justify-content: space-between;
+        width: 25%;
+        height: 5rem;
+        margin: 1rem;
+    }
+
+    .hobbies__line{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .hobbies__box{
+        
+        justify-content: space-between;
+        width: 25%;
+        height: 5rem;
+        margin: 1rem;
     }
 
     .academic__courses{
